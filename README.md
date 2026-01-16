@@ -1,78 +1,74 @@
-powerbi-revenue-profit-dashboard
-Interactive Power BI dashboard analyzing sales, profit, and customer segments
+Revenue & Profit Analysis Dashboard (Power BI)
 
+Executive Summary
+This project focuses on analyzing revenue and profit performance using Power BI to help business stakeholders track financial health, identify growth opportunities, and improve decision-making.
 
-📊 Revenue & Profit Performance Dashboard | Power BI
-📌 Project Overview : 
-This project presents an interactive Power BI dashboard designed to analyze sales performance, profitability, and customer behavior using the Global Superstore dataset.
-The dashboard helps business users track key KPIs, identify high-performing categories, and understand profit drivers across regions and customer segments.
+The dashboard provides a clear view of revenue trends, profit distribution, and category-wise performance.
 
+Business Problem
+Organizations need real-time visibility into revenue and profitability to:
+- Identify high-performing products and regions
+- Detect loss-making areas
+- Support strategic business decisions
+This dashboard answers key business questions around financial performance.
 
-🎯 Business Objectives :
--- Monitor overall revenue, profit, and order volume.
--- Analyze monthly sales trends.
--- Identify profitable and loss-making categories.
--- Evaluate profit margins by category.
--- Understand customer segment contribution.
--- Enable drill-down analysis for deeper insights.
+Dataset Overview
+- Domain: Sales & Financial Performance
+- Data includes:
+  - Revenue
+  - Profit
+  - Category & Sub-category
+  - Region
+  - Time (Month / Year)
+The dataset represents transactional sales data used for performance analysis.
 
+Data Preparation
+Before building the dashboard, the following steps were performed:
+- Data cleaning and validation
+- Handling missing or inconsistent values
+- Creating calculated columns and measures
+- Designing KPIs using DAX
 
-🛠 Tools & Technologies Used :
--- Power BI Desktop
--- Power Query – Data cleaning & transformation
--- DAX – Measures and KPIs
--- Excel / CSV – Source dataset
+This  Dashboard the interactive Power BI dashboard enables stakeholders to explore revenue and profit trends dynamically.
 
-📂 Dataset : 
--- Global Superstore Sales Dataset
--- Contains order-level data including:
-   Sales, Profit, Quantity
-   Category & Sub-Category
-   Region & Segment
-   Order & Ship Dates
+Key Dashboard Components:
+- KPI cards for Revenue, Profit, and Profit Margin
+- Revenue trend analysis over time
+- Profit analysis by category and sub-category
+- Region-wise performance comparison
 
+<img width="702" height="97" alt="image" src="https://github.com/user-attachments/assets/ee6f8118-eb6a-4096-adcf-df0ddefc27ec" />
 
-📈 Key KPIs :
--- Total Sales
--- Total Profit
--- Unique Orders
--- Profit Margin (%)
+<img width="361" height="208" alt="image" src="https://github.com/user-attachments/assets/a24b6e56-baf2-44b6-82f9-621a40676595" />
 
-📊 Dashboard Features :
-🔹 Page 1 – Executive Overview
--- KPI cards for quick business health check.
--- Monthly sales trend analysis.
--- Sales by category.
--- Profit by sub-category.
--- Profit margin by category.
--- Sales contribution by customer segment.
--- Waterfall chart for profit analysis
+<img width="362" height="203" alt="image" src="https://github.com/user-attachments/assets/72bac5a9-2dfc-46e4-84b0-61cee7c1940d" />
 
+<img width="1140" height="641" alt="image" src="https://github.com/user-attachments/assets/f0ba88e0-b1b6-4701-b5e4-8cae110ce95d" />
 
-🔹 Page 2 – Detailed Analysis
--- Decomposition Tree for sales drill-down.
--- Category × Region performance matrix.
--- Top 10 products by sales.
+ Key Business Insights
+- Certain categories contribute significantly to revenue but not profitability
+- Specific regions consistently outperform others
+- Seasonal trends impact revenue and profit margins
+These insights help businesses optimize pricing, inventory, and regional strategies.
 
+ Business Impact
+- Improves financial transparency
+- Helps identify profitable vs loss-making segments
+- Enables data-driven strategic planning
 
-🔍 Key Insights
--- Technology category contributes the highest sales and profit.
--- Furniture category shows lower profit margins, impacting overall profitability.
--- Consumer segment generates the highest revenue.
--- Sales peak towards the end of the year, indicating seasonal demand.
--- A small number of products drive a large portion of total sales.
+Limitations & Future Scope
+Limitations:
+- Analysis limited to historical data
+- External factors not included
 
+Future Enhancements:
+- Forecasting revenue and profit trends
+- Automated data refresh
+- Integration with real-time sales systems
 
-📁 Deliverables
--- Interactive Power BI dashboard (.pbix)
--- Clean data model with reusable DAX measures.
--- Business-ready insights for decision making.
-
-
-📬 Contact
-Hemangini Kundaram
-Aspiring Data Analyst | Power BI | SQL | Excel
-
-
-💼 Open to freelance and entry-level data analytics opportunities
-📩 Feel free to connect via LinkedIn or Fiverr
+Skills Demonstrated
+- Power BI Dashboarding
+- DAX Measures
+- Financial Data Analysis
+- Business Intelligence Reporting
+- Data Storytelling
